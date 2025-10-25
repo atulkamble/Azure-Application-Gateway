@@ -1,0 +1,15 @@
+# Example variable values for basic Application Gateway
+
+resource_group_name   = "agw-demo-rg"
+location              = "eastus"
+
+# Provide reachable backend IPs (VMs, containers, on-prem via VPN, etc.)
+backend_ip_addresses  = [
+  "10.0.2.4",
+  "10.0.2.5",
+]
+
+tags = {
+  environment = "dev"
+  owner       = "you@example.com"
+}

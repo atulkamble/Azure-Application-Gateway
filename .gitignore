@@ -1,0 +1,15 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+override.tf
+*.tfvars
+
+# Node
+node_modules/
+.npmrc
+
+# macOS
+.DS_Store
